@@ -1,0 +1,397 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortvut icon" href="./images/shortcut_icon.png" />
+    <script
+      src="https://kit.fontawesome.com/632e50dcb0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/jquery-ui.min.js"></script>
+    <script src="./scripts/typed.js" defer></script>
+    <script src="./scripts/progressbar.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <title>Portfolio | Aditya Benkar</title>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="navbar">
+      <div class="navbar-option">
+        <i class="fas fa-grip-lines fa-2x"></i>
+      </div>
+      <a href="#Home" class="logo">adityaबेनकर</a>
+
+      <ul class="navbar-items">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <ul class="navbar-items-mobile">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Work">Work</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+
+    <div id="Home" class="scroll-nav">
+      <div class="Home-body">
+        <div class="main-body">
+          <div class="body-description" data-aos="fade-down">
+            <h1>Hi! I'm Aditya Benkar</h1>
+            <p>I am into <span class="typing-text"></span></p>
+          </div>
+          <div class="body-media">
+            <ul>
+              <li>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/aditya-benkar/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in fa-2x"></i
+                  ></a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a href="mailto:adityabenkar782000@gmail.com" target="_blank"
+                    ><i class="fas fa-envelope fa-2x"></i
+                  ></a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a href="https://github.com/adityabenkar" target="_blank"
+                    ><i class="fab fa-github fa-2x"></i
+                  ></a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a
+                    href="https://www.instagram.com/_adityabenkar_/"
+                    target="_blank"
+                    ><i class="fab fa-instagram fa-2x"></i
+                  ></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="body-image" data-aos="fade-down">
+          <img
+            src="./images/undraw_Web_developer_re_h7ie.svg"
+            alt="adityaBenkar"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="About" class="scroll-nav">
+      <div class="about-me" data-aos="fade-down">
+        ABOUT <span class="me">ME </span><i class="fas fa-user-circle"></i>
+      </div>
+      <div class="About-main" data-aos="fade-down">
+        <div class="About-image">
+          <img src="./images/IMG_1257.PNG" alt="Adity Benkar" />
+        </div>
+        <div class="About-info">
+          <h1 class="heading">I'm Aditya</h1>
+          <h2 class="intro">passionate Frontend Developer</h2>
+          <p class="info">
+            Currently pursuing my last year in BCA(Bachelor of Computer
+            Application)<br />
+            I am very passionate about improving my coding skills &<br />
+            developing my own projects.<br />seeking for an
+            experience/internship in web development. Interested in Fullstack
+            Developement.
+          </p>
+          <div><label>Age:</label>20</div>
+          <div><label>Email:</label>adityabenkar782000@gmail.com</div>
+          <div><label>Address:</label>Mumbai-421203/Satara-415002</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Skills" class="scroll-nav">
+      <div class="Heading" data-aos="fade-down">
+        skills <i class="fas fa-laptop-code"></i>
+      </div>
+      <div class="container" data-aos="fade-down">
+        <div class="skill-items html">
+          <div class="distance">
+            <h2><i class="fab fa-html5"></i>HTML</h2>
+            <h2 class="percent">68%</h2>
+          </div>
+          <div class="bar" id="html"></div>
+        </div>
+        <div class="skill-items css">
+          <div class="distance">
+            <h2><i class="fab fa-css3-alt"></i>CSS</h2>
+            <h2 class="percent">80%</h2>
+          </div>
+          <div class="bar" id="css"></div>
+        </div>
+        <div class="skill-items js">
+          <div class="distance">
+            <h2><i class="fab fa-js-square"></i>JavaScript</h2>
+            <h2 class="percent">60%</h2>
+          </div>
+          <div class="bar" id="js"></div>
+        </div>
+        <div class="skill-items jquery">
+          <div class="distance">
+            <h2><i class="fas fa-code"></i>jQuery</h2>
+            <h2 class="percent">48%</h2>
+          </div>
+          <div class="bar" id="jquery"></div>
+        </div>
+        <div class="skill-items nodejs">
+          <div class="distance">
+            <h2><i class="fab fa-node-js"></i>NodeJS</h2>
+            <h2 class="percent">62%</h2>
+          </div>
+          <div class="bar" id="nodejs"></div>
+        </div>
+        <div class="skill-items mysql">
+          <div class="distance">
+            <h2><i class="fas fa-database"></i>MySql</h2>
+            <h2 class="percent">65%</h2>
+          </div>
+          <div class="bar" id="mysql"></div>
+        </div>
+        <div class="skill-items java">
+          <div class="distance">
+            <h2><i class="fab fa-java"></i>java</h2>
+            <h2 class="percent">52%</h2>
+          </div>
+          <div class="bar" id="java"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Education" class="scroll-nav">
+      <div class="heading" data-aos="fade-down">
+        <h2>
+          <span class="my">my</span> education
+          <span><i class="fas fa-user-graduate"></i></span>
+        </h2>
+        <p class="quote">
+          “True education reveals self-potential, more than just sows ideas.”
+        </p>
+      </div>
+      <div class="college" data-aos="fade-down" id="college1">
+        <div class="img-container">
+          <img src="./images/bvimed.jfif" />
+        </div>
+        <div class="info">
+          <h2>Bachelor of computer application</h2>
+          <p>bharati vidyapeeth deemed university | BDU</p>
+          <p>2018-2021</p>
+        </div>
+      </div>
+      <div class="college" data-aos="fade-down" id="college2">
+        <div class="img-container">
+          <img src="./images/yc.jpg" />
+        </div>
+        <div class="info">
+          <h2>HSC science</h2>
+          <p>yashwantrao chavan institute of science | CSMU</p>
+          <p>2016-2018</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Work" class="scroll-nav">
+      <div class="heading" data-aos="fade-down">
+        <h2>
+          My Work <span><i class="fas fa-briefcase"></i></span>
+        </h2>
+      </div>
+      <div class="box-container" data-aos="fade-down">
+        <div class="box" id="box">
+          <div class="modal">
+            <img src="./images/curcon.PNG" alt="currencyConvertor" />
+            <a
+              href="https://adityabenkar.github.io/currencyConvertor-github.io/"
+              target="_blank"
+              >View</a
+            >
+          </div>
+        </div>
+        <div class="box" id="box">
+          <div class="modal">
+            <img src="./images/weaAp.PNG" alt="weatherApp" />
+            <a
+              href="https://adityabenkar.github.io/weatherApp.github.io/"
+              target="_blank"
+              >View</a
+            >
+          </div>
+        </div>
+        <div class="box" id="box">
+          <div class="modal">
+            <img src="./images/tictactoe.PNG" alt="tictactoeGame" />
+            <a
+              href="https://adityabenkar.github.io/tictactoeGame.github.io/"
+              target="_blank"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Contact" class="scroll-nav">
+      <h2 data-aos="fade-down">
+        get in <span class="touch">touch</span>
+        <span><i class="fas fa-headset"></i></span>
+      </h2>
+      <div class="content" data-aos="fade-down">
+        <div class="image">
+          <img src="./images/undraw_Active_support_re_b7sj.svg" />
+        </div>
+        <div class="contact-details" data-aos="fade-down">
+          <form action="#" method="post" autocomplete="off" name="google-sheet">
+            <div class="field flex">
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="name"
+                required
+              />
+            </div>
+            <div class="field flex">
+              <i class="fas fa-phone-alt"></i>
+              <input
+                type="number"
+                minlength="10"
+                id="phone"
+                name="phone"
+                placeholder="phone"
+              />
+            </div>
+            <div class="field flex">
+              <i class="fas fa-paper-plane"></i>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="field relative">
+              <i class="fas fa-comments"></i>
+              <textarea
+                id="message"
+                placeholder="Message"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <div class="button-area">
+              <button id="submit" type="submit">submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="Footer">
+      <div id="footer-main">
+        <div class="container" data-aos="fade-down">
+          <h2>Aditya's Portfolio</h2>
+          <br />
+          <p>
+            thank you for visiting my Portfolio website <br />the pojects will
+            be listed as soon as they are completed.
+          </p>
+        </div>
+        <div class="container" data-aos="fade-down">
+          <h2>quick links</h2>
+          <br />
+          <div class="links">
+            <p>
+              <i class="fas fa-arrow-circle-right"></i><a href="#Home"> home</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-circle-right"></i
+              ><a href="#About"> about</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-circle-right"></i
+              ><a href="#Skills">skills</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-circle-right"></i
+              ><a href="#Education">education</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-circle-right"></i><a href="#Work">work</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-circle-right"></i
+              ><a href="#Contact">contact</a>
+            </p>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-down">
+          <h2>constact info</h2>
+          <br />
+          <p><i class="fas fa-envelope"></i> adityabenkar782000@gmail.com</p>
+          <p>
+            <i class="fas fa-map-marked-alt"></i> satara,india/dombivali,india
+          </p>
+          <div class="media">
+            <div class="circle">
+              <a
+                href="https://www.linkedin.com/in/aditya-benkar/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in fa-2x"></i
+              ></a>
+            </div>
+            <div class="circle">
+              <a href="mailto:adityabenkar782000@gmail.com" target="_blank"
+                ><i class="fas fa-envelope fa-2x"></i
+              ></a>
+            </div>
+            <div class="circle">
+              <a href="https://github.com/adityabenkar" target="_blank"
+                ><i class="fab fa-github fa-2x"></i
+              ></a>
+            </div>
+            <div class="circle">
+              <a
+                href="https://www.instagram.com/_adityabenkar_/"
+                target="_blank"
+                ><i class="fab fa-instagram fa-2x"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="end-msg">
+        <p>Build with 💓 by Aditya Benkar</p>
+      </div>
+    </div>
+  </body>
+</html>
