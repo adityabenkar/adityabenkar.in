@@ -284,7 +284,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 90vh;
+  height: 100%;
 }
 
 .About-image {
@@ -334,8 +334,6 @@ body {
   .About-main {
     flex-direction: column;
     text-align: center;
-    margin-top: 5rem;
-    height: 93vh;
   }
   .About-image {
     border-radius: 7%;
@@ -359,9 +357,6 @@ body {
 @media screen and (max-width: 400px) {
   .About-info div {
     font-size: 1rem;
-  }
-  .About-main {
-    margin-top: 4rem;
   }
   .About-info .heading {
     font-size: 2rem;
@@ -464,15 +459,15 @@ body {
 
 @media screen and (max-width: 750px) {
   #Skills {
-    margin-top: 5rem;
     height: 100%;
-    padding: 1.5rem 0;
+    padding: 0 0 0.5rem 0;
   }
   #Skills .Heading {
     font-size: 2rem;
+    padding: 0.5rem 0;
   }
   #Skills .container {
-    margin: 0 1rem;
+    margin: 1rem;
     display: block;
     height: 100%;
   }
@@ -481,16 +476,6 @@ body {
   }
   .ui-progressbar {
     height: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #Skills {
-    margin-top: 8rem;
-    height: 115vh;
-  }
-  #Skills .container {
-    height: 95vh;
   }
 }
 
@@ -546,6 +531,9 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+  #Education .heading {
+    padding: 0;
+  }
   #Education .heading h2 {
     font-size: 2rem;
   }
@@ -644,9 +632,13 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+  #Work .heading {
+    padding: 0.5rem;
+  }
   #Work .box-container {
     display: block;
     margin: 0 1rem;
+    padding: 0 0 0.5rem 0;
   }
   #Work .heading h2 {
     font-size: 2rem;
