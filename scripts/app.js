@@ -20,8 +20,8 @@ var typed = new Typed(".typing-text", {
 //scroll effect
 
 AOS.init({
-  offset: 200,
-  duration: 700,
+  offset: 50,
+  duration: 500,
   disable: "phone ,tablet, mobile",
 });
 
