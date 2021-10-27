@@ -136,6 +136,16 @@ body {
   font-size: 2rem;
 }
 
+@media screen and (max-width: 750px) {
+  .navbar-option {
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+}
+
 #Home {
   height: 100vh;
   width: 100%;
@@ -240,11 +250,17 @@ body {
     margin: 0;
   }
   .body-media li {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .body-image img {
     height: 30vh;
     width: 60vw;
+  }
+  .body-description h1 {
+    font-size: 2.3rem;
+  }
+  .body-description p span {
+    font-size: 1.5rem;
   }
 }
 
@@ -311,6 +327,9 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+  .about-me {
+    font-size: 2rem;
+  }
   .About-main {
     flex-direction: column;
     text-align: center;
@@ -332,7 +351,7 @@ body {
     margin: 0.5rem auto;
   }
   .About-info div {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -341,7 +360,16 @@ body {
     font-size: 1rem;
   }
   .About-main {
-    margin-top: 8rem;
+    margin-top: 4rem;
+  }
+  .About-info .heading {
+    font-size: 2rem;
+  }
+  .About-info .intro {
+    font-size: 1.5rem;
+  }
+  .About-info .info {
+    font-size: 1rem;
   }
 }
 
@@ -438,13 +466,16 @@ body {
     margin-top: 5rem;
     height: 90vh;
   }
+  #Skills .Heading {
+    font-size: 2rem;
+  }
   #Skills .container {
     margin: 0 1rem;
     display: block;
     height: 75vh;
   }
   .skill-items h2 {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .ui-progressbar {
     height: 0.7rem;
@@ -513,10 +544,22 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+  #Education .heading h2 {
+    font-size: 2rem;
+  }
+  #Education .heading .quote {
+    font-size: 0.5rem;
+  }
   #Education .college {
     flex-direction: column;
     text-align: center;
     width: 100%;
+  }
+  #Education .college .info h2 {
+    font-size: 1rem;
+  }
+  #Education .college .info p {
+    font-size: 0.5rem;
   }
   .college .img-container {
     width: 100%;
@@ -600,6 +643,9 @@ body {
   #Work .box-container {
     display: block;
     margin: 0 1rem;
+  }
+  #Work .heading h2 {
+    font-size: 2rem;
   }
   .box {
     padding: 0.5rem;
@@ -708,11 +754,24 @@ body {
     margin: 1rem auto;
     padding: 1.5rem;
   }
+  #Contact h2 {
+    font-size: 2rem;
+  }
   .content .image {
     display: none;
   }
   .contact-details {
     width: 100%;
+  }
+  .field input,
+  .field textarea {
+    font-size: 1rem;
+  }
+  .contact-details .field {
+    font-size: 1rem;
+  }
+  .button-area button {
+    font-size: 1rem;
   }
 }
 
