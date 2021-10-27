@@ -258,6 +258,7 @@ body {
   }
   .body-description h1 {
     font-size: 2.3rem;
+    padding: 1rem 0;
   }
   .body-description p span {
     font-size: 1.5rem;
@@ -464,7 +465,8 @@ body {
 @media screen and (max-width: 750px) {
   #Skills {
     margin-top: 5rem;
-    height: 90vh;
+    height: 100%;
+    padding: 1.5rem 0;
   }
   #Skills .Heading {
     font-size: 2rem;
@@ -472,7 +474,7 @@ body {
   #Skills .container {
     margin: 0 1rem;
     display: block;
-    height: 75vh;
+    height: 100%;
   }
   .skill-items h2 {
     font-size: 0.7rem;
@@ -557,9 +559,11 @@ body {
   }
   #Education .college .info h2 {
     font-size: 1rem;
+    padding: 0.5rem 0;
   }
   #Education .college .info p {
     font-size: 0.5rem;
+    padding: 0.1rem 0;
   }
   .college .img-container {
     width: 100%;
