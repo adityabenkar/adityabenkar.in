@@ -128,12 +128,12 @@ body {
 
 .navbar-items-mobile li {
   font-size: 2rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .navbar-items-mobile a {
   color: var(--orange);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 750px) {
