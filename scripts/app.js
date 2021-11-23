@@ -1,4 +1,5 @@
 /** @format */
+import { boxContainer } from "./work.js";
 
 //typed.js used for animation in Home
 
@@ -27,7 +28,7 @@ AOS.init({
 
 //hover on work
 
-const modal = document.querySelectorAll(".modal");
+const modal = boxContainer.querySelectorAll(".modal");
 modal.forEach((element) => {
   element.addEventListener("mouseover", () => {
     element.firstElementChild.style.opacity = 0.7;
