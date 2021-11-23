@@ -421,37 +421,37 @@ body {
   height: 1rem;
 }
 
-.html .ui-progressbar-value {
+#html .ui-progressbar-value {
   border-radius: 5rem;
   background-color: #e34c26;
   height: 1.1rem;
 }
-.css .ui-progressbar-value {
+#css .ui-progressbar-value {
   border-radius: 5rem;
   background-color: #3c99dc;
   height: 1.1rem;
 }
-.js .ui-progressbar-value {
+#js .ui-progressbar-value {
   border-radius: 5rem;
   background-color: #f7df1e;
   height: 1.1rem;
 }
-.jquery .ui-progressbar-value {
+#jquery .ui-progressbar-value {
   border-radius: 5rem;
   background-color: #0769ad;
   height: 1.1rem;
 }
-.nodejs .ui-progressbar-value {
+#nodejs .ui-progressbar-value {
   border-radius: 5rem;
   background-color: #6cc24a;
   height: 1.1rem;
 }
-.mysql .ui-progressbar-value {
+#mysql .ui-progressbar-value {
   border-radius: 5rem;
   height: 1.1rem;
   background-color: #f29111;
 }
-.java .ui-progressbar-value {
+#java .ui-progressbar-value {
   border-radius: 5rem;
   background-color: #5382a1;
   height: 1.1rem;
@@ -646,6 +646,10 @@ body {
   .box {
     padding: 0.5rem;
     height: 18rem;
+  }
+  .modal a {
+    padding: 0.5rem 1.5rem;
+    margin-top: -26px;
   }
 }
 
