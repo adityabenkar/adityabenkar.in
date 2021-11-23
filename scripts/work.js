@@ -18,7 +18,7 @@ const workData = [
   },
 ];
 
-const boxContainer = document.querySelector("#Work .box-container");
+export const boxContainer = document.querySelector("#Work .box-container");
 workData.forEach((element) => {
   const box = document.createElement("div");
   box.className = "box";
