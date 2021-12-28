@@ -1,12 +1,12 @@
 
 # Portfolio | Aditya Benkar
 
-thank you for visiting my Portfolio website <br />the pojects will
+thank you for visiting my Portfolio website <br />the projects will
 be listed as soon as they are completed.
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS, jQuery ,nodejs ...
+Javascript, HTML, CSS, jQuery ,nodejs,core Java ...
 
   
 ## Author
@@ -15,9 +15,9 @@ Javascript, HTML, CSS, jQuery ,nodejs ...
 
   
 ## 🚀 About Me
-I'm a frontend developer...
+I'm a fullstack developer...
 I'm a web developer...
-I'm a UI/UI designer...
+I'm a UI/UX designer...
 
 
   
