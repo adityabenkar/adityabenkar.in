@@ -6,7 +6,7 @@ be listed as soon as they are completed.
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS, jQuery ,nodejs,core Java ...
+Javascript, HTML, CSS, jQuery , Nodejs, Java , DSA...
 
   
 ## Author
