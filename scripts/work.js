@@ -2,6 +2,11 @@
 
 const workData = [
   {
+    imgsrc: "./images/QuizzPro.PNG",
+    imgalt: "Programming Quizz",
+    href: "https://adityabenkar.github.io/QuizzPro/",
+  },
+  {
     imgsrc: "./images/curcon.PNG",
     imgalt: "currencyConvertor",
     href: "https://adityabenkar.github.io/currencyConvertor-github.io/",
