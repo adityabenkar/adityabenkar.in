@@ -5,7 +5,7 @@ const skillsData = [
     value: "HTML",
     classname: "html",
     iconclass: "fab fa-html5",
-    percent: "68%",
+    percent: "70%",
   },
   {
     value: "CSS",
@@ -17,19 +17,19 @@ const skillsData = [
     value: "JavaScript",
     classname: "js",
     iconclass: "fab fa-js-square",
-    percent: "60%",
+    percent: "75%",
   },
   {
     value: "jQuery",
     classname: "jquery",
     iconclass: "fas fa-code",
-    percent: "48%",
+    percent: "50%",
   },
   {
     value: "NodeJS",
     classname: "nodejs",
     iconclass: "fab fa-node-js",
-    percent: "62%",
+    percent: "60%",
   },
   {
     value: "MySql",
@@ -41,7 +41,7 @@ const skillsData = [
     value: "java",
     classname: "java",
     iconclass: "fab fa-java",
-    percent: "52%",
+    percent: "70%",
   },
 ];
 
